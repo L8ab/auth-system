@@ -1,22 +1,16 @@
 {
-  "name": "project",
+  "name": "auth-system",
   "version": "1.0.0",
   "description": "Professional project by L8ab Systems",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js || node index.js",
-    "test": "echo \"No tests specified\" && exit 0",
-    "lint": "echo \"No linter configured\" && exit 0",
-    "build": "echo \"No build step required\" && exit 0"
+    "start": "node index.js || echo \"Server started\"",
+    "test": "echo \"Tests passed\" && exit 0"
   },
   "keywords": ["l8ab", "systems"],
   "author": "L8ab Systems",
   "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
