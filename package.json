@@ -14,7 +14,7 @@
   "author": "L8ab Systems",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^5.2.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
