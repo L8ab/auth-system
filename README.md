@@ -1,3 +1,5 @@
+![Build Status](https://img.shields.io/github/actions/workflow/status/L8ab/auth-system/ci.yml?branch=main) ![License](https://img.shields.io/github/license/L8ab/auth-system)
+
 # Authentication System
 
 A secure, production-ready authentication system with JWT tokens and password hashing.
@@ -58,3 +60,7 @@ JWT_REFRESH_SECRET=your-refresh-secret
 ---
 
 **POWERED BY L8AB SYSTEMS**
+
+
+## Structure
+This repository is configured with enterprise standards, CI pipelines, and a structured codebase.
